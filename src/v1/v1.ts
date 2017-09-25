@@ -15,7 +15,7 @@ export class Promise {
     );
   }
 
-  public then(onFulfilled: Fulfill, onRejected: Reject): any {
+  public then(onFulfilled?: Fulfill, onRejected?: Reject): any {
     this._onFulfilled = onFulfilled;
     this._onRejected = onRejected;
   }
