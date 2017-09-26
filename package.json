@@ -1,0 +1,31 @@
+{
+  "name": "easy-promise",
+  "version": "1.0.0",
+  "description": "An easy implementation of Promise in TypeScript to help beginners to understand Promise.",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warmsea/easy-promise.git"
+  },
+  "author": "Su Su <s@warmsea.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/warmsea/easy-promise/issues"
+  },
+  "homepage": "https://github.com/warmsea/easy-promise#readme",
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.43",
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-mocha": "^4.3.1",
+    "gulp-tslint": "^8.1.2",
+    "gulp-typescript": "^3.2.2",
+    "mocha": "^3.5.3",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
+  }
+}
