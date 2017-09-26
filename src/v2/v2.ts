@@ -1,6 +1,6 @@
 import { EventManager } from '../shared/EventManager';
-import { Executor, Fulfill, Reject } from '../shared/types';
 import { PromiseState } from '../shared/PromiseState';
+import { Executor, Fulfill, Reject } from '../shared/types';
 
 export class Promise {
   private _eventManager: EventManager;
@@ -13,7 +13,7 @@ export class Promise {
       },
       (reason) => {
         this._eventManager.setState(PromiseState.Fail, reason);
-      }
+      },
     );
   }
 

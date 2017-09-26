@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import { DESCRIPTION, Promise } from '.';
 
-describe(DESCRIPTION, function () {
+describe(DESCRIPTION, () => {
   it('should support sync resolve', (done) => {
     new Promise((resolve, reject) => {
       resolve('ok');

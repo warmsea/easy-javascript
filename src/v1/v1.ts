@@ -11,7 +11,7 @@ export class Promise {
       },
       (reason) => {
         this._onRejected(reason);
-      }
+      },
     );
   }
 

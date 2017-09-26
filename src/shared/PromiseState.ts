@@ -1,5 +1,5 @@
 export enum PromiseState {
   Pending,
   Success,
-  Fail
+  Fail,
 }
