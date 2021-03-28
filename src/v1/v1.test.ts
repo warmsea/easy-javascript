@@ -1,13 +1,13 @@
-import { DESCRIPTION, Promise } from '.';
+import { DESCRIPTION, Promise } from ".";
 
 describe(DESCRIPTION, () => {
-  it('should support async resolve', (done) => {
+  it("should support async resolve", (done) => {
     new Promise((resolve, reject) => {
       setTimeout(() => {
-        resolve('ok');
+        resolve("ok");
       }, 10);
     }).then((value) => {
-      expect(value).toEqual('ok');
+      expect(value).toEqual("ok");
       done();
     }, done);
   });

@@ -21,7 +21,7 @@ fine. If not, please learn them first.
 
 ```javascript
 new Promise((resolve: (result) => void, reject: (reason) => void) => {
-  resolve('Hello, world!');
+  resolve("Hello, world!");
 }).then((message) => {
   alert(message);
 });

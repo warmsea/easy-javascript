@@ -1,5 +1,5 @@
-import { PromiseState } from './PromiseState';
-import { Fulfill, Reject } from './types';
+import { PromiseState } from "./PromiseState";
+import { Fulfill, Reject } from "./types";
 
 export class EventManager {
   private _state: PromiseState;

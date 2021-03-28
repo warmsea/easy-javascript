@@ -1,2 +1,2 @@
-export * from './v1';
-export const DESCRIPTION = 'Promise v1';
+export * from "./v1";
+export const DESCRIPTION = "Promise v1";

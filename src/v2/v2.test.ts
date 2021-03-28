@@ -1,11 +1,11 @@
-import { DESCRIPTION, Promise } from '.';
+import { DESCRIPTION, Promise } from ".";
 
 describe(DESCRIPTION, () => {
-  it('should support sync resolve', (done) => {
+  it("should support sync resolve", (done) => {
     new Promise((resolve, reject) => {
-      resolve('ok');
+      resolve("ok");
     }).then((value) => {
-      expect(value).toEqual('ok');
+      expect(value).toEqual("ok");
       done();
     }, done);
   });

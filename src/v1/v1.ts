@@ -1,4 +1,4 @@
-import { Executor, Fulfill, Reject } from '../shared/types';
+import { Executor, Fulfill, Reject } from "../shared/types";
 
 export class Promise {
   private _onFulfilled: Fulfill;
@@ -11,7 +11,7 @@ export class Promise {
       },
       (reason) => {
         this._onRejected(reason);
-      },
+      }
     );
   }
 
