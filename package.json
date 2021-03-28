@@ -1,31 +1,31 @@
 {
-  "name": "easy-promise",
-  "version": "1.0.0",
-  "description": "An easy implementation of Promise in TypeScript to help beginners to understand Promise.",
+  "name": "easy-javascript",
+  "version": "2.0.0",
+  "description": "Simplified version of JavaScript libraries for learners.",
   "scripts": {
-    "test": "gulp test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/warmsea/easy-promise.git"
+    "url": "git+https://github.com/warmsea/easy-javascript.git"
   },
   "author": "Su Su <s@warmsea.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/warmsea/easy-promise/issues"
+    "url": "https://github.com/warmsea/easy-javascript/issues"
   },
-  "homepage": "https://github.com/warmsea/easy-promise#readme",
+  "homepage": "https://github.com/warmsea/easy-javascript#readme",
+  "jest": {
+    "transform": {
+      "\\.tsx?$": [
+        "ts-jest"
+      ]
+    }
+  },
   "devDependencies": {
-    "@types/chai": "^4.0.4",
-    "@types/mocha": "^2.2.43",
-    "chai": "^4.1.2",
-    "gulp": "^3.9.1",
-    "gulp-clean": "^0.3.2",
-    "gulp-mocha": "^4.3.1",
-    "gulp-tslint": "^8.1.2",
-    "gulp-typescript": "^3.2.2",
-    "mocha": "^3.5.3",
-    "tslint": "^5.7.0",
-    "typescript": "^2.5.2"
+    "@types/jest": "^26.0.22",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
+    "typescript": "^4.2.3"
   }
 }

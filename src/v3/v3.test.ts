@@ -1,4 +1,3 @@
-import { expect } from 'chai';
 import { DESCRIPTION, Promise } from '.';
 
 describe(DESCRIPTION, () => {
@@ -8,7 +7,7 @@ describe(DESCRIPTION, () => {
     }).then((value) => {
       return `${value} two`;
     }).then((value) => {
-      expect(value).to.equal('one two');
+      expect(value).toEqual('one two');
       done();
     }, done);
   });
